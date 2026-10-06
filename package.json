@@ -1,0 +1,30 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "license": "ISC",
+  "author": "Dilara Göral",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "allowScripts": {
+    "@swc/core": true,
+    "@parcel/watcher": true,
+    "lmdb": true,
+    "msgpackr-extract": true,
+    "fraction@0.2.0": true,
+    "fractional@1.0.0": true
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "core-js": "^3.50.0",
+    "fraction": "^0.2.0",
+    "fraction.js": "^5.3.4",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
